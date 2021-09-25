@@ -8,17 +8,47 @@
 body{
     font-family: 'Kalam', cursive;
     color: var(--secondary-color);
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    width: 100%;
+    
 }
+
+
 
 h1{
     color: var(--secondary-color);
 }
 
+nav{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+}
+
+h1{
+    margin:0;
+    font-size: 2rem;
+}
+
 .container{
-    
+    box-sizing: border-box;
+    display: flexbox;
+    width: 100%;
     padding: 0 1rem;
     max-width: 600px;
-    margin: auto;
+    margin:auto;
+}
+
+#text-input{
+    margin-top: 1.3rem;
+}
+
+#text-output{
+    margin-bottom:1.3rem;
 }
 
 .text-box{
@@ -40,4 +70,19 @@ h1{
     background-color: var(--primary-color);
     border-radius: 2px;
     margin: 1rem 0;
+}
+
+footer{
+    background-color: var(--primary-color);
+    padding: 1rem 0;
+    text-align: center;
+    position:static;
+    bottom: 0;
+    width:100%;
+    margin-top:auto;
+    min-height:auto;
+}
+
+h2{
+    margin: 0;
 }

@@ -26,7 +26,7 @@ function clickEventHandler(){
     .then(json => {
         console.log(json);
         var translatedText = json.contents.translated;
-        textOutput.innerHTML = translatedText + inputTxt.value;
+        textOutput.innerHTML = translatedText;
     }).catch(errorHandling);
 }
 
