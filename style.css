@@ -36,9 +36,9 @@ h1{
 
 .container{
     box-sizing: border-box;
-    display: flexbox;
+    /* display: flexbox; */
     width: 100%;
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
     max-width: 600px;
     margin:auto;
 }
